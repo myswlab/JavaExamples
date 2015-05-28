@@ -1,5 +1,6 @@
 package it.unibs.ing.fp.esercizi_laboratorio.mylib;
 import java.util.*;
+
 public class InputDati 
 {
 	  private static Scanner lettore = creaScanner();
