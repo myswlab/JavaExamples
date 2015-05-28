@@ -1,5 +1,5 @@
 package it.unibs.ing.fp.esercizi_laboratorio.mylib;
-/*
+/**
 Questa classe rappresenta un menu testuale generico a piu' voci
 Si suppone che la voce per uscire sia sempre associata alla scelta 0 
 e sia presentata in fondo al menu
