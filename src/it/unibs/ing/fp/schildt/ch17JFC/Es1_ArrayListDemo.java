@@ -6,7 +6,7 @@ import java.util.*;
 class Es1_ArrayListDemo { 
   public static void main(String args[]) { 
     // Create an array list. 
-    ArrayList<String> al = new ArrayList<String>(); 
+    List<String> al = new Vector<String>(); 
      
     System.out.println("Initial size of al: " + 
                        al.size()); 

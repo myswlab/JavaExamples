@@ -1,9 +1,9 @@
 package it.unibs.ing.fp.esercizi_lezione.stream;
 
 import java.io.*;
-
 import java.util.*;
-import it.unibs.ing.fp.esercizi_laboratorio.mylib.*;
+
+import it.unibs.ing.fp.lab.mylib.*;
 
 public class CipollaTxtStringhe
 {
@@ -30,9 +30,7 @@ public class CipollaTxtStringhe
 
 		esistenza(f);
 
-		PrintWriter pw = new PrintWriter(new BufferedWriter(
-
-		new FileWriter(f)));
+		PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(f)));
 
 		String s = "";
 
@@ -50,9 +48,7 @@ public class CipollaTxtStringhe
 
 		esistenza(f);
 
-		BufferedReader source = new BufferedReader(
-
-		new FileReader(f));
+		BufferedReader source = new BufferedReader(new FileReader(f));
 
 		Vector<String> elenco = new Vector<String>();
 

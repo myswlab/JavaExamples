@@ -9,13 +9,13 @@ package it.unibs.ing.fp.schildt.ch10Exceptions;
    compile-time error will result.
 */
 class Es7_SuperSubCatch {
-  public static void main(String args[]) {
+  public static void main  (String args[]) {
     try {
       int a = 0;
       int b = 42 / a;
     } catch(Exception e) { //IllegalStateException e
-      System.out.println("Generic Exception catch.");
-    }
+        System.out.println("Generic Exception catch.");
+      }
     /* This catch is never reached because
        ArithmeticException is a subclass of Exception. */
    catch(ArithmeticException e) { // ERROR - unreachable

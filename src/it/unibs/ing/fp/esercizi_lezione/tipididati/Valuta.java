@@ -10,7 +10,7 @@ public class Valuta
     tassoRif = _tassoRif;
   }
  
- public  double tassoConversione (Valuta altraValuta)
+ public double tassoConversione (Valuta altraValuta)
   {
    return tassoRif/altraValuta.tassoRif;
   }

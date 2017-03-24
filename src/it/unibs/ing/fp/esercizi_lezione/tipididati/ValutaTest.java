@@ -11,11 +11,7 @@ public class ValutaTest {
 	Valuta dollaro = new Valuta("Dollaro",0.67);
 	Valuta franco = new Valuta("Franco Svizzero",0.60);
 	double delta=0.01;
-	@Test
-	public void testValuta() {
-		
-		fail("Not yet implemented");
-	}
+
 
 	@Test
 	public void testTassoConversioneSterlinaDollaro() {
@@ -39,10 +35,6 @@ public class ValutaTest {
 	
 	}
 	
-	public void testSize(){
-		for (int e = 0; e < array.length; e++) {
-			
-		}
-	}
+	
 	
 }

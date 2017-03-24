@@ -58,7 +58,7 @@ public class HorrorShow
 		canCheAbbaia(dracula);
     	terminator(nosferatu);
 		terminator(drago);
-		// vampirator(drago);
+		//vampirator(drago);
 		vampirator(dracula);
 		vampirator(nosferatu);
   }

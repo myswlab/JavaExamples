@@ -22,7 +22,7 @@ public class Fibonacci {
     }
 	
 	public static void main(String[] args) {
-		int a =30;
+		int a =20;
 		if (args.length > 0) {
 		    try {
 		        a = Integer.parseInt(args[0]);

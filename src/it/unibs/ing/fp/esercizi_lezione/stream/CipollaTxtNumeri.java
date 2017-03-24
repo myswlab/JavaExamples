@@ -2,7 +2,8 @@ package it.unibs.ing.fp.esercizi_lezione.stream;
 
 import java.io.*;
 import java.util.*;
-import it.unibs.ing.fp.esercizi_laboratorio.mylib.*;
+
+import it.unibs.ing.fp.lab.mylib.*;
 
 public class CipollaTxtNumeri {
 
