@@ -1,4 +1,4 @@
-package it.unibs.fp.lonelyhearts;
+package it.unibs.ing.fp.lab.lonelyheartsV2;
 
 public class Stranamore 
 {
