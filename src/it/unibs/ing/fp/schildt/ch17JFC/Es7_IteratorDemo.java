@@ -38,6 +38,11 @@ class Es7_IteratorDemo {
       String element = itr.next(); 
       System.out.print(element + " "); 
     } 
+    
+    itr = al.iterator();  
+    itr.next();
+    itr.remove();
+    itr.remove();
     System.out.println(); 
  
     // Now, display the list backwards. 
