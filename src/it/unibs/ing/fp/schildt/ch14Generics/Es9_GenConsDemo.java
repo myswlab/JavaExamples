@@ -14,7 +14,7 @@ class Gen9Cons {
   } 
 } 
  
-class Es9_Gen9ConsDemo { 
+class Es9_GenConsDemo { 
   public static void main(String args[]) { 
  
     Gen9Cons test = new Gen9Cons(100); 

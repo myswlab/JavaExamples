@@ -2,7 +2,7 @@ package it.unibs.ing.fp.schildt.ch14Generics;
 
 //listing 8
 // Demonstrate a simple generic method. 
-class Es8_Gen8MethDemo {  
+class Es8_GenMethDemo {  
  
   // Determine if an object is in an array. 
   static <T, V extends T> boolean isIn(T x, V[] y) { 

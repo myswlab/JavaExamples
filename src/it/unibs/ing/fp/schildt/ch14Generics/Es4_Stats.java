@@ -9,7 +9,8 @@ package it.unibs.ing.fp.schildt.ch14Generics;
 // The class contains an error! 
 class Es4_Stats<T> {  
   T[] nums; // nums is an array of type T 
-    
+
+  
   // Pass the constructor a reference to   
   // an array of type T. 
   Es4_Stats(T[] o) {  
@@ -20,8 +21,8 @@ class Es4_Stats<T> {
   double average() {  
     double sum = 0.0; 
  
-    for(int i=0; i < nums.length; i++)  
-      sum += nums[i].doubleValue(); // Error!!! 
+//    for(int i=0; i < nums.length; i++)  
+//      sum += nums[i].doubleValue(); // Error!!! 
  
     return sum / nums.length; 
   }  

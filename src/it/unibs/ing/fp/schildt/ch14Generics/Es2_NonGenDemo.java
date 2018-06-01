@@ -24,7 +24,7 @@ class NonGen2 {
 }  
   
 // Demonstrate the non-generic class.  
-class Es2_NonGen2Demo {  
+public class Es2_NonGenDemo {  
   public static void main(String args[]) {  
     NonGen2 iOb;   
   

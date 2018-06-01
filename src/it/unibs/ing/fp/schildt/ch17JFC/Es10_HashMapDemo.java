@@ -27,7 +27,7 @@ class Es10_HashMapDemo {
     System.out.println();  
   
     // Deposit 1000 into John Doe's account. 
-    double balance = hm.get("JJJohn Doe");  
+    double balance = hm.get("John Doe");  
     hm.put("John Doe", balance + 1000);  
  
     System.out.println("John Doe's new balance: " +  

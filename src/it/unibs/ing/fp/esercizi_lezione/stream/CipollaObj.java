@@ -38,7 +38,7 @@ public class CipollaObj {
 
 		for (int i = 0; i < a.length; i++)
 
-			a[i] = i * 2;
+			a[i] = i * 3;
 
 		archivio.writeObject(a);
 

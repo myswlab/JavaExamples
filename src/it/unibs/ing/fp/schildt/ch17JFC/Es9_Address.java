@@ -10,8 +10,7 @@ class Es9_Address {
   private String state;  
   private String code;  
   
-  Address9(String n, String s, String c,   
-          String st, String cd) {  
+  Es9_Address(String n, String s, String c,   String st, String cd) {  
     name = n;  
     street = s;  
     city = c;  
@@ -27,18 +26,18 @@ class Es9_Address {
   
 class MailList {  
   public static void main(String args[]) {  
-    LinkedList<Address9> ml = new LinkedList<Address9>();  
+    LinkedList<Es9_Address> ml = new LinkedList<Es9_Address>();  
       
     // Add elements to the linked list. 
-    ml.add(new Address9("J.W. West", "11 Oak Ave",  
+    ml.add(new Es9_Address("J.W. West", "11 Oak Ave",  
                        "Urbana", "IL", "61801"));  
-    ml.add(new Address9("Ralph Baker", "1142 Maple Lane",  
+    ml.add(new Es9_Address("Ralph Baker", "1142 Maple Lane",  
                        "Mahome", "IL", "61853"));  
-    ml.add(new Address9("Tom Carlton", "867 Elm St",  
+    ml.add(new Es9_Address("Tom Carlton", "867 Elm St",  
                        "Champaign", "IL", "61820"));  
  
     // Display the mailing list. 
-    for(Address9 element : ml) 
+    for(Es9_Address element : ml) 
       System.out.println(element + "\n");  
  
     System.out.println();  

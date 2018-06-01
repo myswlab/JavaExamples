@@ -4,7 +4,8 @@ package it.unibs.ing.fp.schildt.ch14Generics;
 // Here, T is a type parameter that 
 // will be replaced by a real type 
 // when an object of type Gen1 is created. 
-class Gen1<T> { 
+class Gen1<T> {
+	
   T ob; // declare an object of type T 
    
   // Pass the constructor a reference to  
@@ -26,15 +27,17 @@ class Gen1<T> {
 } 
  
 // Demonstrate the generic class. 
-class Es1_Gen1Demo { 
+public class Es1_GenDemo { 
+	
+
   public static void main(String args[]) { 
     // Create a Gen1 reference for Integers.  
     Gen1<Integer> iOb;  
- 
     // Create a Gen1<Integer> object and assign its 
     // reference to iOb.  Notice the use of autoboxing  
     // to encapsulate the value 88 within an Integer object. 
     iOb = new Gen1<Integer>(88); 
+    
  
     // Show the type of data used by iOb. 
     iOb.showType(); 

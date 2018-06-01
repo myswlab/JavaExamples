@@ -28,6 +28,7 @@ class Es1_ArrayListDemo {
  
     // Remove elements from the array list. 
     al.remove("F"); 
+
     al.remove(2); 
  
     System.out.println("Size of al after deletions: " + 
