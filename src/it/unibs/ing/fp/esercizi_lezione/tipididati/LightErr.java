@@ -1,5 +1,5 @@
 package it.unibs.ing.fp.esercizi_lezione.tipididati;
-// Compute distance light travels using long variables.
+// Compute distance light travels using int variables.
 class LightErr {
 	public static void main(String args[]) {
 		int lightspeed;

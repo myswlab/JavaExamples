@@ -2,7 +2,7 @@ package it.unibs.ing.fp.lab.puntirette;
 import it.unibs.ing.fp.lab.mylib.*;
 import java.io.*;
 
-/*
+/**
  Questa classe riceve in ingresso le coordinate di due punti e 
  ne calcola la distanza. 
  Quindi se i punti sono distinti:

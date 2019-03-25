@@ -36,7 +36,7 @@ public class ArchivioCD {
 
 	public ArchivioCD() 
 	{
-		listaCD = new Vector<CD>();
+		listaCD = new Vector<CD>(); 
 	}
 
 
