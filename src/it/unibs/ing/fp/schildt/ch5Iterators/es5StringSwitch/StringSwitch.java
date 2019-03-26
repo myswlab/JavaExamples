@@ -5,9 +5,9 @@ package it.unibs.ing.fp.schildt.ch5Iterators.es5StringSwitch;
 class StringSwitch {
   public static void main(String args[]) {
 
-    String str = "two";
+    String str = "Two";
 
-    switch(str) {
+    switch(str.toLowerCase()) {
       case "one":
         System.out.println("one");
         break;

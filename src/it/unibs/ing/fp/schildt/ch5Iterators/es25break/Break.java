@@ -9,7 +9,8 @@ class Break {
       second: {
         third: {
           System.out.println("Before the break.");
-          if(t) break second; // break out of second block
+          if(t) 
+        	  break  second; // break out of second block
           System.out.println("This won't execute");
         }
         System.out.println("This is after third block. This won't execute");
