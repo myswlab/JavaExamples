@@ -6,7 +6,7 @@ public class MyUtil
 {
 	private static final String ERRORE_FORMATO= "Attenzione, formato inaspettato"; 
 	private static Scanner lettore = new Scanner(System.in);
-	public static String ACAPO="%n";
+	public static String ACAPO="\n";
 
 	public static int leggiIntero (String messaggio)
 	{
@@ -49,6 +49,7 @@ public class MyUtil
 
 	public static char siglaGiorno(int numeroGiorno){
 		char sigla='x';
+		numeroGiorno--;
 		switch (numeroGiorno) {
 		case 0: sigla='l';break;
 		case 1: sigla='m';break;

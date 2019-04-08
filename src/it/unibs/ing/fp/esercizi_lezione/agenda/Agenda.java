@@ -6,7 +6,7 @@ public class Agenda {
 	public static int NUM_GIORNI_SETTIMANA = 7;
 	private final static String INTESTAZIONE_MENU = "MENU PRINCIPALE DI GESTIONE AGENDA";
 	private final static String [] VOCI_MENU ={"Gestione di una singola pagina", "Visualizzazione dell'intera agenda"};
-	final private static String MESS_PAGINA = "Inserire il numero della pagina su cui operare";
+	final private static String MESS_PAGINA = "Inserire il numero della pagina su cui operare ";
 	private Pagina [] contenuto;
 
 	public Agenda (int numeroGiorni, int primoGiorno)

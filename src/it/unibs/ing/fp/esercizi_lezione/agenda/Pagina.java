@@ -1,5 +1,7 @@
 package it.unibs.ing.fp.esercizi_lezione.agenda;
 
+import it.unibs.fp.mylib.MyMenu;
+
 public class Pagina {
 	final private static String PAGINA_VUOTA = "";
 	final private static String MESS_NUOVO_TESTO = "Inserire il nuovo testo della pagina numero ";
@@ -18,7 +20,7 @@ public class Pagina {
 
 	public String toString()
 	{
-		return MyUtil.siglaGiorno(giornoDellaSettimana) + " " + numero + " " +
+		return MyUtil.siglaGiorno(giornoDellaSettimana) + " " + numero + ": " +
 				testo;
 	}
 
@@ -47,7 +49,7 @@ public class Pagina {
 	
 	public void modificaTesto()
 	{
-		testo = MyUtil.leggiString(MESS_NUOVO_TESTO + numero);
+		testo = MyUtil.leggiString(MESS_NUOVO_TESTO + numero+": ");
 	}
 
 }

@@ -26,7 +26,7 @@ public class AgendaV1 {
 	{
 		StringBuffer risultato = new StringBuffer();
 		for (int i = 0; i < testi.length; i++)
-			risultato.append(MyUtil.siglaGiorno(giorniDellaSettimana[i]) + " " + (i+1) + " " +
+			risultato.append(MyUtil.siglaGiorno(giorniDellaSettimana[i]) + " " + (i+1) + ": " +
 					testi[i] + "\n");
 		return risultato.toString();
 	}
