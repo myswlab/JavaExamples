@@ -16,14 +16,6 @@ public static int leggiIntero (String messaggio)
 
 }
 
-public static int leggiIntero (String messaggio)
-
-{
-
-	System.out.print(messaggio); 
-	return lettore.nextInt();
-
-}
 public static double leggiDouble(String messaggio) {
 
     System.out.print(messaggio); 
