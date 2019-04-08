@@ -6,6 +6,9 @@ import org.junit.Test;
 
 public class TamaTestMatricole
 {
+	// Attenzione, costruttore utilizzato:
+	// public Tamagotchi (String nome, int gradoAffettivo, int gradoSazieta)
+	
 	@Test
 	public void dieForZeroSatisfaction() throws Exception 
 	{
