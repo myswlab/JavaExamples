@@ -10,7 +10,7 @@ class DemoBoxWeight {
     
 
     vol = myBox.volume();
- //   double d=myBox.getWeight();
+   // double d=myBox.getWeight();
     
     
     System.out.println("Volume of mybox1 is " + vol);

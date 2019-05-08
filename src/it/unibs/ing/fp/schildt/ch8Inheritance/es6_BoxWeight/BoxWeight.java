@@ -1,5 +1,5 @@
 package it.unibs.ing.fp.schildt.ch8Inheritance.es6_BoxWeight;
-import  it.unibs.ing.fp.Shildt.ch8.es3_Box.Box;
+import  it.unibs.ing.fp.schildt.ch8Inheritance.es3_Box.Box;
 
 
 //*listing 6

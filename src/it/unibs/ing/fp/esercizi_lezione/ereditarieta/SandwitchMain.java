@@ -33,14 +33,14 @@ class PortableLunch extends Lunch {
 }
 class Sandwich extends PortableLunch {
 
-	Bread b ;  //= new Bread();
-	Cheese c ; //= new Cheese();
-	Lettuce l; //= new Lettuce();
+	Bread b = new Bread();
+	Cheese c  = new Cheese();
+	Lettuce l  = new Lettuce();
 
 	Sandwich() { 
-		b = new Bread();
-		c = new Cheese();
-		l = new Lettuce();
+		// b = new Bread();
+		//c = new Cheese();
+		//l = new Lettuce();
 		System.out.println("Sandwich()");
  	}
  	

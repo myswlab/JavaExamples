@@ -12,6 +12,7 @@ class SimpleInheritance {
     superOb.j = 20;
     System.out.println("Contents of superOb: ");
     superOb.showij();
+   
     System.out.println();
 
     /* The subclass has access to all public members of
@@ -26,6 +27,7 @@ class SimpleInheritance {
 
     System.out.println("Sum of i, j and k in subOb:");
     subOb.sum();
+    
   }
 }
 
