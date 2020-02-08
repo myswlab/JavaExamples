@@ -55,11 +55,11 @@ public class CipollaObj {
 		try
 		{
 
-			a = (int[]) sorgente.readObject();
+			int [] aNew = (int[]) sorgente.readObject();
 
-			for (int i = 0; i < a.length; i++)
+			for (int i = 0; i < aNew.length; i++)
 
-				System.out.println(a[i]);
+				System.out.println(aNew[i]);
 
 		}
 
@@ -73,6 +73,35 @@ public class CipollaObj {
 				sorgente.close();
 		}
 
+		
+		ObjectInputStream sorgente2 = new ObjectInputStream(
+
+				new BufferedInputStream(
+
+				new FileInputStream(f)));
+
+				try
+				{
+
+					double[] d = (double[]) sorgente2.readObject();
+
+					for (int i = 0; i < d.length; i++)
+
+						System.out.println(d[i]);
+
+				}
+
+				catch (ClassCastException exc)
+				{
+					System.out.println("Grave errore di tipo in lettura!");
+				}
+
+				finally {
+					if (sorgente2 != null)
+						sorgente2.close();
+				}
+
+		
 	} // main
 
 }// class 

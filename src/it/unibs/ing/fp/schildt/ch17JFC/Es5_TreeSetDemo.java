@@ -15,6 +15,8 @@ class Es5_TreeSetDemo {
     ts.add("E"); 
     ts.add("F"); 
     ts.add("D"); 
+
+    ts.add("D"); 
  
     System.out.println(ts); 
   } 

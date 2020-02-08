@@ -19,6 +19,8 @@ class Es9_MethNestTry {
       }
     } catch(ArrayIndexOutOfBoundsException e) {
       System.out.println("Array index out-of-bounds: " + e);
+      System.out.println("StackTrace: "); 
+      e.printStackTrace();
     }
   }
 
@@ -36,6 +38,8 @@ class Es9_MethNestTry {
       nesttry(a);
     } catch(ArithmeticException e) {
       System.out.println("Divide by 0: " + e);
+      System.out.println("StackTrace: "); 
+      e.printStackTrace();
     }
   }
 }

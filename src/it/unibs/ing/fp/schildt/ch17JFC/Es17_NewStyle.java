@@ -13,7 +13,9 @@ class Es17_NewStyle {
     list.add("two"); 
     list.add("three"); 
     list.add("four"); 
- 
+
+     list.add(new Double(5));
+       
     // Notice that Iterator is also generic. 
     Iterator<String> itr = list.iterator(); 
  

@@ -15,7 +15,7 @@ class Es4_HashSetDemo {
     hs.add("E"); 
     hs.add("C"); 
     hs.add("F"); 
- 
-    System.out.println(hs); 
+//    hs.add("F");
+    System.out.println(hs.toString()); 
   } 
 }

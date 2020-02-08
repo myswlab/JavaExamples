@@ -24,7 +24,7 @@ public class Fattoriale {
         }
     }
 	public static void main(String args[]) {
-	      int a =20;
+	      int a =5;
 		  if (args.length > 0) {
 			    try {
 			        a = Integer.parseInt(args[0]);

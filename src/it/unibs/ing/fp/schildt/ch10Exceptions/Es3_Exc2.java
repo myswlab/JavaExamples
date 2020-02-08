@@ -13,7 +13,7 @@ class Es3_Exc2 {
       System.out.println("Division by zero.");
       a=0;
     }
-    System.out.println("After catch statement.");
+    System.out.println("After catch statement. a="+a);
   }
 }
 

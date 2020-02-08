@@ -50,7 +50,7 @@ public class CipollaTxtStringhe
 
 		BufferedReader source = new BufferedReader(new FileReader(f));
 
-		Vector<String> elenco = new Vector<String>();
+		List<String> elenco = new ArrayList<String>();
 
 		do {
 

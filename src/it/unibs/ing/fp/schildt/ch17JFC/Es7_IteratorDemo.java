@@ -38,19 +38,24 @@ class Es7_IteratorDemo {
       String element = itr.next(); 
       System.out.print(element + " "); 
     } 
-    
-    itr = al.iterator();  
-    itr.next();
-    itr.remove();
-    itr.remove();
+
     System.out.println(); 
- 
     // Now, display the list backwards. 
     System.out.print("Modified list backwards: "); 
     while(litr.hasPrevious()) { 
       String element = litr.previous(); 
       System.out.print(element + " "); 
     } 
+    System.out.println(); 
+    
+    System.out.print("Contents of al: "); 
+    
+    itr = al.iterator();  
+    itr.next();
+    itr.remove();
+  itr.remove();  //ATTENZIONE
+    for(String el: al)
+    	System.out.print(el + " ");
     System.out.println(); 
   } 
 }

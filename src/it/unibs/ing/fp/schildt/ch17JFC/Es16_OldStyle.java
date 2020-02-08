@@ -15,7 +15,9 @@ class Es16_OldStyle {
     list.add("two"); 
     list.add("three"); 
     list.add("four"); 
- 
+
+   list.add(new Double(5));
+    
     Iterator itr = list.iterator(); 
     while(itr.hasNext()) { 
  

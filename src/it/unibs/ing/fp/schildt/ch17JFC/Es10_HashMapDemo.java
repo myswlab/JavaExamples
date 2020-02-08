@@ -23,7 +23,7 @@ class Es10_HashMapDemo {
       System.out.print(me.getKey() + ": ");  
       System.out.println(me.getValue());  
     }  
- 
+
     System.out.println();  
   
     // Deposit 1000 into John Doe's account. 

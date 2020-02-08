@@ -30,7 +30,7 @@ class Es1_ArrayListDemo {
     al.remove("F"); 
 
     al.remove(2); 
- 
+
     System.out.println("Size of al after deletions: " + 
                        al.size()); 
     System.out.println("Contents of al: " + al); 

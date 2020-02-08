@@ -33,6 +33,9 @@ class Es8_NestTry {
 
     } catch(ArithmeticException e) {
       System.out.println("Divide by 0: " + e);
+      System.out.println("StackTrace: "); 
+      e.printStackTrace();
+
     }
   }
 }
