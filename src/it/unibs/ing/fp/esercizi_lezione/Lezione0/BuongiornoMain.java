@@ -7,7 +7,7 @@ public class BuongiornoMain
 
 	  assistente = new Assistant();
 
-	  assistente.saluta();
+	  assistente.saluta("Ivan");
 	}
 
 } 

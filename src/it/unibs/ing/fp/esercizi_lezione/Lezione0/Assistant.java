@@ -1,9 +1,10 @@
 public class Assistant
 {	
 
- public void saluta () 
+ public void saluta (String nome) 
 	{
-		System.out.println("Buongiorno!"); 
+		System.out.print("Buongiorno ");
+    System.out.println(nome);
    }
 
 } 
