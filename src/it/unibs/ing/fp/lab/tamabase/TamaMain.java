@@ -1,4 +1,4 @@
-package it.unibs.fp.tamabase;
+package it.unibs.ing.fp.lab.tamabase;
 
 import it.unibs.fp.mylib.InputDati;
 import it.unibs.fp.mylib.MyMenu;

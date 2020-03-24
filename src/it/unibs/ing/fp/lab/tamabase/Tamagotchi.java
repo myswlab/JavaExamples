@@ -1,4 +1,4 @@
-package it.unibs.fp.tamabase;
+package it.unibs.ing.fp.lab.tamabase;
 
 public class Tamagotchi {
 
