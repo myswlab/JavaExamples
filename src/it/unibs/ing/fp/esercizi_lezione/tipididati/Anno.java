@@ -21,4 +21,6 @@ public class Anno
   {
 	   return 1 + ((numAnno + INIZIO_CICLO)/DURATA_CICLO);   
   }
+ 
+  
 }

@@ -1,4 +1,4 @@
-ackage it.unibs.ing.fp.esercizi_lezione.hello;
+package it.unibs.ing.fp.esercizi_lezione.hello;
 
 public class Hello {
     String msg;
