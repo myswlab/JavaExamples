@@ -1,5 +1,5 @@
 package it.unibs.ing.fp.lab.cuorisolitari;
 
-public enum Sesso {
+public enum Genere {
 	F, M;
 }

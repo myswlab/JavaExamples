@@ -3,7 +3,7 @@ package it.unibs.ing.fp.lab.cuorisolitari;
 public class CuoreSolitario {
 	private static final int MAX_AGE_DIFFERENCE = 10;
 	private String pseudonimo;
-	private Sesso sesso;
+	private Genere sesso;
 	private Integer eta;
 	
 	public boolean isAffineWith(CuoreSolitario cuoreSolitario) {
@@ -25,10 +25,10 @@ public class CuoreSolitario {
 	public void setPseudonimo(String pseudonimo) {
 		this.pseudonimo = pseudonimo;
 	}
-	public Sesso getSesso() {
+	public Genere getSesso() {
 		return sesso;
 	}
-	public void setSesso(Sesso sesso) {
+	public void setSesso(Genere sesso) {
 		this.sesso = sesso;
 	}
 	public Integer getEta() {

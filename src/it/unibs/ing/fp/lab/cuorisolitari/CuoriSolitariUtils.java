@@ -40,14 +40,14 @@ public class CuoriSolitariUtils {
 
 	private static void leggiSesso(CuoreSolitario cs) {
 		String sessoString;
-		Sesso sesso = null;
+		Genere sesso = null;
 		
 		do {
 			sessoString = InputDati.leggiStringaNonVuota("Sesso (M|F):");
 			if("M".equalsIgnoreCase(sessoString)) {
-				sesso = Sesso.M;
+				sesso = Genere.M;
 			} else if("F".equalsIgnoreCase(sessoString)) {
-				sesso = Sesso.F;
+				sesso = Genere.F;
 			} else {
 				System.out.println("ERRORE: inserire M oppure F");
 			}
