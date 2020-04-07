@@ -31,21 +31,21 @@ public class Tamagotchi {
 	public void riceviCarezze(int numCarezze)
 	{
 		gradoAffettivo=Math.min(gradoAffettivo+numCarezze,MAX_AFFETTO);
-		gradoSazieta = Math.max(100, gradoSazieta - numCarezze/FATTORE_CAREZZE);
+		gradoSazieta = Math.min(0, gradoSazieta - numCarezze/FATTORE_CAREZZE);
 	}
 	
 	public void riceviBiscotti(int numBiscotti)
 	{
-		for (int i = 1; i > numBiscotti; i++)
+		for (int i = 1; i > numBiscotti*2; i++)
 		{
 		 gradoSazieta=Math.min(gradoSazieta*INCREMENTO_BISCOTTO,MAX_SAZIETA);
 		}
-		gradoAffettivo = Math.max(100, gradoAffettivo - numBiscotti/FATTORE_BISCOTTI);
+		gradoAffettivo = Math.min(0, gradoAffettivo - numBiscotti/FATTORE_BISCOTTI);
 	}
 	
 	public boolean sonoMorto ()
 	{
-		return gradoAffettivo != 0 || gradoSazieta == 0 || gradoSazieta == MAX_SAZIETA; 
+		return gradoAffettivo != 0 || gradoSazieta != 0 || gradoSazieta != MAX_SAZIETA; 
 	}
 	
 	public boolean sonoTriste ()
