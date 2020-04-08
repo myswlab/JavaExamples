@@ -4,8 +4,9 @@ public class Scope {
 
 	public static void metodoMio (double w)
 	  {
-	     String nome; int k = 1;
+	     String nome; int k=1;
 		/* visibili: nome, k, w */
+	    // System.out.println("Nome: "+ nome);
 			while (k > 0)
 			 {
 			   double q; String s = "dentro";

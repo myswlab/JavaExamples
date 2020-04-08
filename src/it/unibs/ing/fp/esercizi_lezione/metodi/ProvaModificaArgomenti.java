@@ -14,12 +14,11 @@ public class ProvaModificaArgomenti
 	}
 
 	static void metodoProva(StringBuffer daCambiare)
-
 	{
 
-		daCambiare.append(" l’Ingegneria !");
+		daCambiare.append(" l'Ingegneria !");
 
-		daCambiare = new StringBuffer("Abbasso l’Ingegneria !");
+		daCambiare = new StringBuffer("Abbasso l'Ingegneria !");
 		System.out.println("Dentro il metodo:" + daCambiare);
 
 	}

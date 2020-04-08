@@ -12,10 +12,10 @@ public class ProvaModificaArgomentiBis {
 
 	static void metodoProva(StringBuffer daCambiare) {
 
-		daCambiare.append(" l’Ingegneria !");
+		daCambiare.append(" Ingegneria !");
 
 	//	daCambiare = new StringBuffer("Abbasso");
-	//	daCambiare.append(" l’Ingegneria !");
+	//	daCambiare.append(" l'Ingegneria !");
 
 		System.out.println("Dentro il metodo:" + daCambiare);
 

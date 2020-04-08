@@ -28,11 +28,12 @@ public class VerificaArrotondamento
 
 		if(diff1==diff2)
 			System.out.println("Differenze uguali");
-		//checkRound2();
+//		checkRound2();
 				
-		//checkRound3();
+//		checkRound3();
 
-		//checkRound4();
+		
+//		checkRound4();
 	}
 
 	/**
