@@ -24,7 +24,7 @@ class Es9_Address {
   }  
 }  
   
-class MailList {  
+class Es9_Address_MailList {  
   public static void main(String args[]) {  
     LinkedList<Es9_Address> ml = new LinkedList<Es9_Address>();  
       
